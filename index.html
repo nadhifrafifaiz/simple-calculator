@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h2>CALCULATOR</h2>
+        <div>
+            <input type=" text" value="" id="result">
+        </div>
+
+        <div>
+            <div style="width: 30%; margin: auto;">
+                <table>
+                    <tr>
+                        <td><input type="button" value="+" onclick="fnCalculate('+')" class="operator button btn"></td>
+                        <td><input type="button" value="-" onclick="fnCalculate('-')" class="operator button btn"></td>
+                        <td><input type="button" value="*" onclick="fnCalculate('*')" class="operator button btn"></td>
+                        <td><input type="button" value="/" onclick="fnCalculate('/')" class="operator button btn"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="7" onclick="fnOutput('7')" class="number button btn"></td>
+                        <td><input type="button" value="8" onclick="fnOutput('8')" class="number button btn"></td>
+                        <td><input type="button" value="9" onclick="fnOutput('9')" class="number button btn"></td>
+                        <td rowspan="4" class="equal"><input type="button" value="=" onclick="fnSolve()"
+                                class="button-equal btn-equal">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="4" onclick="fnOutput('4')" class="number button btn"></td>
+                        <td><input type="button" value="5" onclick="fnOutput('5')" class="number button btn"></td>
+                        <td><input type="button" value="6" onclick="fnOutput('6')" class="number button btn"></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="1" onclick="fnOutput('1')" class="number button btn"></td>
+                        <td><input type="button" value="2" onclick="fnOutput('2')" class="number button btn"></td>
+                        <td><input type="button" value="3" onclick="fnOutput('3')" class="number button btn"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="0" onclick="fnOutput('0')" class="number button btn"></td>
+                        <td><input type="button" value="." onclick="fnOutput('.')" class="number button btn"></td>
+                        <td><input type="button" value="AC" onclick="fnAllClear()" class="button btn"></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+    width: 100%;
+    border-radius:6px;
+}
+
+td,
+th {
+    border: 0.5px solid #2b2b2b;
+    text-align: left;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.equal{
+    background-color: #ff8100;
+}
+
+#result{
+   
+    background-color: grey;
+    border: solid black 0.5px;
+    color: white;
+    font-size: medium;
+    width: 30%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.button{
+    background-color:white;
+    padding: 5px;
+    color: black;
+    border: solid white 2px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.button-equal{
+    background-color:#ff8100;
+    padding: 100px 16px;
+    color: black;
+    border: solid #ff8100 2px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#result{
+    text-align: right;
+    padding-right: 20px;
+}
+
